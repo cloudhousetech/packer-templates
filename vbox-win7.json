@@ -4,7 +4,8 @@
     "vboxmanage": [
       [ "modifyvm", "{{.Name}}", "--memory", "8120" ],
       [ "modifyvm", "{{.Name}}", "--vram", "36" ],
-      [ "modifyvm", "{{.Name}}", "--cpus", "4" ]
+      [ "modifyvm", "{{.Name}}", "--cpus", "4" ],
+      [ "modifyvm", "{{.Name}}", "--natpf1", "guestwinrm,tcp,127.0.0.1,5985,,5985" ]
     ],
     "guest_os_type": "Windows7_64",
     "iso_url": "{{ user `iso_url` }}",
