@@ -32,7 +32,7 @@
                 <FullName>Vagrant Administrator</FullName>
                 <Organization>Vagrant Inc.</Organization>
                 <ProductKey>
-                    <!--<Key>your key here</Key>-->
+                    <!-- <Key>derp</Key> -->
                     <WillShowUI>Never</WillShowUI>
                 </ProductKey>
             </UserData>
@@ -47,7 +47,7 @@
                     <InstallFrom>
                         <MetaData wcm:action="add">
                             <Key>/IMAGE/NAME</Key>
-                            <Value>Windows 7 ULTIMATE</Value>
+                            <Value>Windows 7 Enterprise</Value>
                         </MetaData>
                     </InstallFrom>
                 </OSImage>
